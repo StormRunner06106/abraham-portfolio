@@ -13,9 +13,17 @@ const experiences = [
       "Migrated legacy monolith to microservices architecture, improving scalability by 300%",
       "Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes",
       "Optimized database queries resulting in 60% faster page load times",
-      "Led adoption of TypeScript and modern React patterns across the team"
+      "Led adoption of TypeScript and modern React patterns across the team",
     ],
-    technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "PostgreSQL", "Redis"]
+    technologies: [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Redis",
+    ],
   },
   {
     id: 2,
@@ -29,9 +37,17 @@ const experiences = [
       "Built real-time analytics dashboard processing 1M+ events daily",
       "Reduced API response times by 45% through optimization and caching strategies",
       "Implemented OAuth2 authentication system supporting multiple providers",
-      "Created reusable component library used across 8 different projects"
+      "Created reusable component library used across 8 different projects",
     ],
-    technologies: ["React", "Vue.js", "Express.js", "MongoDB", "GraphQL", "Jest", "Webpack"]
+    technologies: [
+      "React",
+      "Vue.js",
+      "Express.js",
+      "MongoDB",
+      "GraphQL",
+      "Jest",
+      "Webpack",
+    ],
   },
   {
     id: 3,
@@ -45,60 +61,85 @@ const experiences = [
       "Developed e-commerce platform processing $2M+ in monthly transactions",
       "Implemented payment gateway integration with Stripe and PayPal",
       "Built admin dashboard for inventory management and order tracking",
-      "Achieved 95%+ test coverage on critical business logic"
+      "Achieved 95%+ test coverage on critical business logic",
     ],
-    technologies: ["JavaScript", "React", "Node.js", "MySQL", "AWS S3", "Git", "Sass"]
+    technologies: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MySQL",
+      "AWS S3",
+      "Git",
+      "Sass",
+    ],
   },
   {
     id: 4,
     role: "Junior Web Developer",
     company: "StartUp Labs",
     location: "Boston, MA",
-    date: "Aug 2016 - May 2017",
+    date: "Aug 2015 - May 2017",
     description:
       "Started career building responsive websites and learning full-stack development. Collaborated with senior developers to implement new features and fix bugs. Gained experience in modern web technologies and agile methodologies.",
     achievements: [
       "Developed 15+ landing pages with 40%+ conversion rate improvements",
       "Implemented responsive designs across all major browsers and devices",
       "Learned and applied React, Node.js, and modern JavaScript practices",
-      "Contributed to open-source projects and internal tooling"
+      "Contributed to open-source projects and internal tooling",
     ],
-    technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "PHP", "MySQL"]
+    technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "PHP",
+      "MySQL",
+    ],
   },
 ];
 
 interface ExperienceItemProps {
-  experience: typeof experiences[0];
+  experience: (typeof experiences)[0];
   isLast: boolean;
 }
 
-const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, isLast }) => {
+const ExperienceItem: React.FC<ExperienceItemProps> = ({
+  experience,
+  isLast,
+}) => {
   return (
     <div className="relative pb-12">
       {/* Timeline connector */}
       {!isLast && (
         <div className="absolute left-8 top-12 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 to-purple-300"></div>
       )}
-      
+
       {/* Timeline dot */}
       <div className="absolute left-6 top-2 w-5 h-5 rounded-full bg-purple-500 border-4 border-black shadow-lg"></div>
-      
+
       {/* Content */}
       <div className="ml-20">
         <div className="bg-transparent border border-purple-500/30 rounded-lg p-6 hover:border-purple-500/60 transition-all duration-300 blur-background2 shadow-xl">
           <div className="flex flex-wrap justify-between items-start mb-3">
             <div>
-              <h3 className="text-2xl font-bold text-white mb-1">{experience.role}</h3>
-              <p className="text-purple-300 text-lg font-semibold">{experience.company}</p>
+              <h3 className="text-2xl font-bold text-white mb-1">
+                {experience.role}
+              </h3>
+              <p className="text-purple-300 text-lg font-semibold">
+                {experience.company}
+              </p>
               <p className="text-gray-400 text-sm">{experience.location}</p>
             </div>
             <span className="text-purple-200 font-medium bg-purple-900/30 px-4 py-1 rounded-full text-sm whitespace-nowrap">
               {experience.date}
             </span>
           </div>
-          
-          <p className="text-gray-200 mb-4 leading-relaxed">{experience.description}</p>
-          
+
+          <p className="text-gray-200 mb-4 leading-relaxed">
+            {experience.description}
+          </p>
+
           <div className="mb-4">
             <h4 className="text-white font-semibold mb-2 flex items-center">
               <span className="mr-2">🏆</span>
@@ -113,7 +154,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, isLast }) =
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-white font-semibold mb-2">Technologies:</h4>
             <div className="flex flex-wrap gap-2">
@@ -142,8 +183,8 @@ const Experience: React.FC = () => {
             Work <span className="animated-gradient">Experience</span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            8+ years of professional experience building scalable web applications
-            and leading development teams
+            8+ years of professional experience building scalable web
+            applications and leading development teams
           </p>
         </div>
 

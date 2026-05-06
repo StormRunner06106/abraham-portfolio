@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const About: React.FC = () => {
   return (
-    <div id="about" className="relative flex items-center justify-center min-h-screen py-20">
+    <div
+      id="about"
+      className="relative flex items-center justify-center min-h-screen py-20"
+    >
       <div className="text-white px-6 md:px-12 max-w-7xl mx-auto">
         <h2 className="text-center text-3xl md:text-5xl font-bold mb-16">
           About <span className="animated-gradient">Abraham Warden</span>
@@ -25,22 +28,28 @@ const About: React.FC = () => {
 
           {/* About Text */}
           <div className="bg-transparent rounded-lg shadow-lg px-6 py-8 border blur-background2">
-            <h3 className="text-2xl font-semibold text-white mb-6">Professional Summary</h3>
+            <h3 className="text-2xl font-semibold text-white mb-6">
+              Professional Summary
+            </h3>
             <div className="space-y-4">
               <p className="text-gray-200 text-lg leading-relaxed">
-                Hello! I&apos;m Abraham Warden, a passionate full-stack developer with 8+ years of experience 
-                building innovative web applications and leading development teams. I specialize in creating 
-                scalable, user-centric solutions that drive business growth and enhance user experiences.
+                Hello! I&apos;m Abraham Warden, a passionate full-stack
+                developer with 11+ years of experience building innovative web
+                applications and leading development teams. I specialize in
+                creating scalable, user-centric solutions that drive business
+                growth and enhance user experiences.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed">
-                My expertise spans across modern JavaScript frameworks, cloud infrastructure, and AI integration. 
-                I&apos;m committed to writing clean, maintainable code and following industry best practices. 
-                I thrive in collaborative environments where I can mentor junior developers and contribute to 
-                meaningful projects.
+                My expertise spans across modern JavaScript frameworks, cloud
+                infrastructure, and AI integration. I&apos;m committed to
+                writing clean, maintainable code and following industry best
+                practices. I thrive in collaborative environments where I can
+                mentor junior developers and contribute to meaningful projects.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed">
-                Beyond coding, I&apos;m passionate about staying current with emerging technologies and 
-                sharing knowledge with the developer community. Let&apos;s build something amazing together!
+                Beyond coding, I&apos;m passionate about staying current with
+                emerging technologies and sharing knowledge with the developer
+                community. Let&apos;s build something amazing together!
               </p>
             </div>
           </div>
@@ -131,7 +140,9 @@ const About: React.FC = () => {
             </h4>
             <div className="text-gray-200 text-center space-y-2">
               <p className="text-gray-200">
-                <span className="mr-4">✔ OpenAI GPT-4, ChatGPT API Integration</span>
+                <span className="mr-4">
+                  ✔ OpenAI GPT-4, ChatGPT API Integration
+                </span>
                 <span className="mr-4">✔ LangChain, Vector Databases</span>
               </p>
               <p className="text-gray-200">
