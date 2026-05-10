@@ -9,7 +9,7 @@ const About: React.FC = () => {
     >
       <div className="text-white px-6 md:px-12 max-w-7xl mx-auto">
         <h2 className="text-center text-3xl md:text-5xl font-bold mb-16">
-          About <span className="animated-gradient">Abraham Warden</span>
+          About <span className="animated-gradient">Max</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
@@ -18,7 +18,7 @@ const About: React.FC = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden border-4 border-purple-500 shadow-2xl profile-image-container">
               <Image
                 src="/profile/abrahamwarden.jpg"
-                alt="Abraham Warden"
+                alt="Max"
                 fill
                 className="object-cover"
                 priority
@@ -33,11 +33,11 @@ const About: React.FC = () => {
             </h3>
             <div className="space-y-4">
               <p className="text-gray-200 text-lg leading-relaxed">
-                Hello! I&apos;m Abraham Warden, a passionate full-stack
-                developer with 11+ years of experience building innovative web
-                applications and leading development teams. I specialize in
-                creating scalable, user-centric solutions that drive business
-                growth and enhance user experiences.
+                Hello! I&apos;m Max, a passionate full-stack developer with 11+
+                years of experience building innovative web applications and
+                leading development teams. I specialize in creating scalable,
+                user-centric solutions that drive business growth and enhance
+                user experiences.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed">
                 My expertise spans across modern JavaScript frameworks, cloud

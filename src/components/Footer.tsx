@@ -14,11 +14,11 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div>
             <div className="text-3xl font-bold mb-4">
-              <span className="animated-gradient">Abraham Warden</span>
+              <span className="animated-gradient">Max</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Senior Full-Stack Developer passionate about building exceptional web experiences 
-              and innovative solutions.
+              Senior Full-Stack Developer passionate about building exceptional
+              web experiences and innovative solutions.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -51,7 +51,9 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-purple-300">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-4 text-purple-300">
+              Quick Links
+            </h3>
             <ul className="space-y-3">
               <li>
                 <ButtonLink
@@ -93,7 +95,9 @@ const Footer: React.FC = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-purple-300">Get In Touch</h3>
+            <h3 className="text-xl font-semibold mb-4 text-purple-300">
+              Get In Touch
+            </h3>
             <ul className="space-y-3 text-gray-300">
               <li>
                 <a
@@ -137,10 +141,11 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 pt-6 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <p className="mb-4 md:mb-0">
-              © {currentYear} Abraham Warden. All rights reserved.
+              © {currentYear} Max. All rights reserved.
             </p>
             <p className="flex items-center">
-              Made with <FaHeart className="text-red-500 mx-2" size={14} /> using Next.js & Tailwind CSS
+              Made with <FaHeart className="text-red-500 mx-2" size={14} />{" "}
+              using Next.js & Tailwind CSS
             </p>
           </div>
         </div>

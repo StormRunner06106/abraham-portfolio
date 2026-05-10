@@ -1,9 +1,9 @@
 {
-  "name": "abraham-warden-portfolio",
+  "name": "max-portfolio",
   "version": "2.0.0",
   "private": true,
-  "description": "Modern professional portfolio for Abraham Warden - Senior Full-Stack Developer",
-  "author": "Abraham Warden",
+  "description": "Modern professional portfolio for Max - Senior Full-Stack Developer",
+  "author": "Max",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

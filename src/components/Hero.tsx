@@ -46,12 +46,13 @@ const Hero: React.FC = () => {
       </svg>
       <div className="text-center text-white px-6 md:px-12">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          <span className="animated-gradient">Abraham Warden</span>👋
+          <span className="animated-gradient">Max</span>👋
         </h1>
         <p className="text-xl md:text-2xl mb-8">
           Senior Full-Stack Developer & Technology Consultant
           <br />
-          Specializing in scalable web applications, cloud architecture, and AI-powered solutions
+          Specializing in scalable web applications, cloud architecture, and
+          AI-powered solutions
         </p>
         <div className="flex justify-center space-x-4 flex-wrap gap-2">
           <ButtonLink

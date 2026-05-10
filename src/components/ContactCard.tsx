@@ -11,8 +11,10 @@ const ContactCard: React.FC = () => {
       <div className="bg-transparent border border-purple-500/30 p-8 rounded-lg shadow-lg text-white w-full md:max-w-4xl mx-auto mt-8 cc-bg blur-background w-4/5">
         <div className="flex justify-between items-center flex-wrap gap-6">
           <div>
-            <h2 className="text-3xl font-bold mb-2">Abraham Warden</h2>
-            <p className="text-lg mb-4 text-gray-200">Senior Full-Stack Developer</p>
+            <h2 className="text-3xl font-bold mb-2">Max</h2>
+            <p className="text-lg mb-4 text-gray-200">
+              Senior Full-Stack Developer
+            </p>
             <p className="text-gray-300">
               Passionate about building exceptional web experiences
             </p>

@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
           href="/"
           className="text-2xl font-semibold text-gray-800 text-white"
         >
-          Abraham Warden
+          Max
         </Link>
         <div className="hidden md:flex space-x-6">
           <ButtonLink
@@ -139,13 +139,25 @@ const Navbar: React.FC = () => {
           />
         </div>
         <div className="flex items-center mt-20 mr-4 space-x-4">
-          <Link href="https://github.com/happy-code-vector" target="_blank" aria-label="GitHub">
+          <Link
+            href="https://github.com/happy-code-vector"
+            target="_blank"
+            aria-label="GitHub"
+          >
             <img src="/github-mark-white.svg" alt="" className="GitHub" />
           </Link>
-          <Link href="https://wa.me/16725376407" target="_blank" aria-label="WhatsApp">
+          <Link
+            href="https://wa.me/16725376407"
+            target="_blank"
+            aria-label="WhatsApp"
+          >
             <FaWhatsapp size={30} />
           </Link>
-          <Link href="mailto:petroworkermail@gmail.com" target="_blank" aria-label="Email">
+          <Link
+            href="mailto:petroworkermail@gmail.com"
+            target="_blank"
+            aria-label="Email"
+          >
             <SiGmail size={30} />
           </Link>
         </div>
