@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { ButtonLink } from "./Scroller";
-import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 const Navbar: React.FC = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -89,15 +88,7 @@ const Navbar: React.FC = () => {
             <img src="/github-mark-white.svg" alt="" className="GitHub" />
           </Link>
           <Link
-            href="https://wa.me/16725376407"
-            target="_blank"
-            className="hidden md:flex items-center hover:text-purple-400 transition-colors"
-            aria-label="WhatsApp"
-          >
-            <FaWhatsapp size={30} />
-          </Link>
-          <Link
-            href="mailto:petroworkermail@gmail.com"
+            href="mailto:maxopkvsuyt@gmail.com"
             target="_blank"
             className="hidden md:flex items-center hover:text-purple-400 transition-colors"
             aria-label="Email"
@@ -147,14 +138,7 @@ const Navbar: React.FC = () => {
             <img src="/github-mark-white.svg" alt="" className="GitHub" />
           </Link>
           <Link
-            href="https://wa.me/16725376407"
-            target="_blank"
-            aria-label="WhatsApp"
-          >
-            <FaWhatsapp size={30} />
-          </Link>
-          <Link
-            href="mailto:petroworkermail@gmail.com"
+            href="mailto:maxopkvsuyt@gmail.com"
             target="_blank"
             aria-label="Email"
           >

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDownload, FaFilePdf, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaDownload, FaFilePdf, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const Resume: React.FC = () => {
@@ -23,9 +23,10 @@ const Resume: React.FC = () => {
               <span className="mr-3">📄</span>
               Download Resume
             </h3>
-            
+
             <p className="text-gray-200 mb-8">
-              Get a comprehensive overview of my skills, experience, and achievements in different formats.
+              Get a comprehensive overview of my skills, experience, and
+              achievements in different formats.
             </p>
 
             <div className="space-y-4">
@@ -34,11 +35,12 @@ const Resume: React.FC = () => {
                 <span>Download PDF Resume</span>
                 <FaDownload className="ml-3 group-hover:translate-y-1 transition-transform" />
               </button>
-
             </div>
 
             <div className="mt-8 pt-6 border-t border-gray-700">
-              <h4 className="text-lg font-semibold text-white mb-4">Quick Stats:</h4>
+              <h4 className="text-lg font-semibold text-white mb-4">
+                Quick Stats:
+              </h4>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-purple-900/30 rounded-lg p-4">
                   <p className="text-3xl font-bold text-purple-300">8+</p>
@@ -66,15 +68,16 @@ const Resume: React.FC = () => {
               <span className="mr-3">📧</span>
               Get In Touch
             </h3>
-            
+
             <p className="text-gray-200 mb-8">
-              I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+              I&apos;m always open to discussing new projects, creative ideas,
+              or opportunities to be part of your vision.
             </p>
 
             <div className="space-y-6">
               {/* Email */}
               <a
-                href="mailto:petroworkermail@gmail.com"
+                href="mailto:maxopkvsuyt@gmail.com"
                 className="flex items-center p-4 bg-purple-900/30 rounded-lg hover:bg-purple-800/50 transition-all duration-300 group"
               >
                 <div className="bg-purple-600 p-3 rounded-lg mr-4 group-hover:scale-110 transition-transform">
@@ -82,23 +85,7 @@ const Resume: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Email</p>
-                  <p className="text-gray-300 text-sm">petroworkermail@gmail.com</p>
-                </div>
-              </a>
-
-              {/* WhatsApp */}
-              <a
-                href="https://wa.me/16725376407"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center p-4 bg-purple-900/30 rounded-lg hover:bg-purple-800/50 transition-all duration-300 group"
-              >
-                <div className="bg-green-600 p-3 rounded-lg mr-4 group-hover:scale-110 transition-transform">
-                  <FaWhatsapp className="text-2xl text-white" />
-                </div>
-                <div>
-                  <p className="text-white font-semibold">WhatsApp</p>
-                  <p className="text-gray-300 text-sm">+16725376407</p>
+                  <p className="text-gray-300 text-sm">maxopkvsuyt@gmail.com</p>
                 </div>
               </a>
 
@@ -117,11 +104,12 @@ const Resume: React.FC = () => {
                   <p className="text-gray-300 text-sm">@happy-code-vector</p>
                 </div>
               </a>
-
             </div>
 
             <div className="mt-8 pt-6 border-t border-gray-700">
-              <h4 className="text-lg font-semibold text-white mb-4">Availability:</h4>
+              <h4 className="text-lg font-semibold text-white mb-4">
+                Availability:
+              </h4>
               <div className="flex items-center">
                 <div className="w-3 h-3 bg-green-500 rounded-full mr-3 animate-pulse"></div>
                 <p className="text-gray-200">
@@ -138,11 +126,12 @@ const Resume: React.FC = () => {
             Let&apos;s Build Something Amazing Together
           </h3>
           <p className="text-gray-200 mb-6 max-w-2xl mx-auto">
-            Whether you have a project in mind, need a consultation, or just want to connect, 
-            I&apos;d love to hear from you. Let&apos;s create something extraordinary!
+            Whether you have a project in mind, need a consultation, or just
+            want to connect, I&apos;d love to hear from you. Let&apos;s create
+            something extraordinary!
           </p>
           <a
-            href="mailto:petroworkermail@gmail.com"
+            href="mailto:maxopkvsuyt@gmail.com"
             className="inline-block bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Send Me a Message

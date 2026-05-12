@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaHeart, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaHeart } from "react-icons/fa";
 import { ButtonLink } from "./Scroller";
 import { SiGmail } from "react-icons/si";
 
@@ -31,16 +31,7 @@ const Footer: React.FC = () => {
                 <FaGithub size={28} />
               </Link>
               <Link
-                href="https://wa.me/16725376407"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-purple-400 transition-colors"
-                aria-label="WhatsApp"
-              >
-                <FaWhatsapp size={28} />
-              </Link>
-              <Link
-                href="mailto:petroworkermail@gmail.com"
+                href="mailto:maxopkvsuyt@gmail.com"
                 className="hover:text-purple-400 transition-colors"
                 aria-label="Email"
               >
@@ -101,20 +92,10 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-gray-300">
               <li>
                 <a
-                  href="mailto:petroworkermail@gmail.com"
+                  href="mailto:maxopkvsuyt@gmail.com"
                   className="hover:text-purple-400 transition-colors"
                 >
-                  Gmail: petroworkermail@gmail.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://wa.me/16725376407"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-purple-400 transition-colors"
-                >
-                  WhatsApp: +16725376407
+                  Gmail: maxopkvsuyt@gmail.com
                 </a>
               </li>
               <li>

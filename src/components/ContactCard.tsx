@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const ContactCard: React.FC = () => {
@@ -31,16 +31,7 @@ const ContactCard: React.FC = () => {
               <FaGithub size={44} />
             </a>
             <a
-              href="https://wa.me/16725376407"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-purple-400 transition-transform hover:scale-110"
-              aria-label="WhatsApp"
-            >
-              <FaWhatsapp size={44} />
-            </a>
-            <a
-              href="mailto:petroworkermail@gmail.com"
+              href="mailto:maxopkvsuyt@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="hover:text-gray-200 transition-transform hover:scale-110"
